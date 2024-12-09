@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Mindows助手</string>
+    <string name="title_home">切换系统</string>
+    <string name="title_dashboard">挂载分区</string>
+    <string name="title_notifications">关于我们</string>
+    <string name="title_backup">备份分区</string>
+    <string name="reboot_tile">重启到Windows</string>
+    <string name="mount_tile">挂载分区</string>
+</resources>
