@@ -4,12 +4,12 @@ plugins {
 
 android {
     namespace 'com.mindows.toolbox'
-    compileSdk 33
+    compileSdk 35
 
     defaultConfig {
         applicationId "com.mindows.toolbox"
         minSdk 25
-        targetSdk 33
+        targetSdk 35
         versionCode 5
         versionName "2.2"
         signingConfig signingConfigs.debug
@@ -49,9 +49,8 @@ android {
 }
 
 dependencies {
-
-    implementation 'androidx.appcompat:appcompat:1.6.1'
-    implementation 'com.google.android.material:material:1.8.0'
-    implementation 'androidx.navigation:navigation-fragment:2.5.3'
-    implementation 'androidx.navigation:navigation-ui:2.5.3'
+    implementation 'androidx.appcompat:appcompat:1.7.0'
+    implementation 'com.google.android.material:material:1.12.0'
+    implementation 'androidx.navigation:navigation-fragment:2.8.9'
+    implementation 'androidx.navigation:navigation-ui:2.8.9'
 }
